@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(120deg, #eef2f7, #dfe7ef);
+    font-family: "Inter", "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 780px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin: 30px 0;
+}
+
+input, select, button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-size: 15px;
+}
+
+button {
+    background: #0f766e;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #115e59;
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.desc {
+    color: #475569;
+    line-height: 1.6;
+}
+
+.medicine-card {
+    background: #f8fafc;
+    border-left: 6px solid #0f766e;
+    padding: 18px;
+    margin-top: 18px;
+    border-radius: 12px;
+}
+
+.medicine-card h3 {
+    margin: 0 0 10px 0;
+    color: #0f172a;
+}
+
+.stores a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.stores a:hover {
+    text-decoration: underline;
+}
+
+.hint {
+    background: #ecfeff;
+    padding: 12px;
+    border-left: 5px solid #06b6d4;
+    border-radius: 8px;
+}
+
+.error {
+    background: #fee2e2;
+    padding: 12px;
+    border-left: 5px solid #dc2626;
+    border-radius: 8px;
+}
+
+.disclaimer {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 13px;
+    color: #991b1b;
+}
